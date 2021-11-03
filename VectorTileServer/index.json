@@ -1,7 +1,7 @@
 {
   "name": "VTtest-01",
   "copyrightText": "OpenStreetMap contributors, UN Geosptial",
-  "type": "indexedFlat",
+  "type": "indexedVector",
   "defaultStyles": "./resources/styles",
   "tiles": [
     "https://dev-unvt.dfs.un.org/vtile-open/zxy/unosm-prod/{z}/{x}/{y}.pbf"
