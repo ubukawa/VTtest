@@ -2,7 +2,7 @@
   "currentVersion":10.81,
   "name":"VTtest",
   "copyrightText":"OpenStreetMap contributors, UN Geosptial",
-  "capabilities":"TilesOnly",
+  "capabilities":"TilesOnly,Tilemap",
   "type":"indexedFlat",
   "defaultStyles":"./resources/styles",
   "tileMap": "./tilemap",
