@@ -27,7 +27,7 @@
     }
   },
   "minScale": 295828763.7957775,
-  "maxScale": 35.26553675,
+  "maxScale": 141.062147,
   "tileInfo": {
     "rows": 512,
     "cols": 512,
@@ -151,35 +151,14 @@
         "level": 21,
         "resolution": 0.03732276770595208,
         "scale": 141.062147
-      },
-      {
-        "level": 22,
-        "resolution": 0.01866138385297604,
-        "scale": 70.5310735
-      },
-      {
-        "level": 23,
-        "resolution": 0.00933069192648802,
-        "scale": 35.26553675
       }
     ]
   },
-  "maxzoom": 23,
-  "resourceInfo": {
-    "styleVersion": 8,
-    "tileCompression": "gzip",
-    "cacheInfo": {
-      "storageInfo": {
-        "packetSize": 128,
-        "storageFormat": "compactV2"
-      }
-    }
-  },
+  "maxzoom": 21,
   "currentVersion": 10.9,
   "capabilities": "TilesOnly",
   "minLOD": 0,
   "maxLOD": 15,
   "exportTilesAllowed": false,
-  "maxExportTilesCount": 100000,
   "supportedExtensions": ""
 }
