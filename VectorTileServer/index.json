@@ -1,164 +1,166 @@
 {
-  "name": "VTtest-01",
-  "copyrightText": "OpenStreetMap contributors, UN Geosptial",
-  "type": "indexedVector",
-  "defaultStyles": "./resources/styles",
-  "tiles": [
-    "https://dev-unvt.dfs.un.org/vtile-open/zxy/unosm-prod/{z}/{x}/{y}.pbf"
-  ],
+  "currentVersion":10.81,
+  "name":"VTtest",
+  "copyrightText":"OpenStreetMap contributors, UN Geosptial",
+  "capabilities":"TilesOnly",
+  "type":"indexedFlat",
+  "defaultStyles":"./resources/styles",
+  "tiles":["https://dev-unvt.dfs.un.org/vtile-open/zxy/unosm-prod/{z}/{x}/{y}.pbf"],
+  "exportTilesAllowed":false,
   "initialExtent": {
-    "xmin": -20037507.842788246,
-    "ymin": -20037508.342787,
-    "xmax": 20037507.842788246,
-    "ymax": 20037508.342787,
+    "xmin": -180,
+    "ymin": -90,
+    "xmax": 180,
+    "ymax": 90,
     "spatialReference": {
-      "wkid": 102100,
-      "latestWkid": 3857
+      "wkid": 4326,
+      "latestWkid": 4326
     }
   },
   "fullExtent": {
-    "xmin": -20037507.842788246,
-    "ymin": -20037508.342787,
-    "xmax": 20037507.842788246,
-    "ymax": 20037508.342787,
+    "xmin": -180,
+    "ymin": -90,
+    "xmax": 180,
+    "ymax": 90,
     "spatialReference": {
-      "wkid": 102100,
-      "latestWkid": 3857
+      "wkid": 4326,
+      "latestWkid": 4326
     }
   },
-  "minScale": 295828763.7957775,
-  "maxScale": 141.062147,
+  "minScale":0,
+  "maxScale":0,
   "tileInfo": {
     "rows": 512,
     "cols": 512,
     "dpi": 96,
     "format": "pbf",
     "origin": {
-      "x": -20037508.342787,
-      "y": 20037508.342787
+      "x": -180,
+      "y": 90
     },
     "spatialReference": {
-      "wkid": 102100,
-      "latestWkid": 3857
+      "wkid": 4326,
+      "latestWkid": 4326
     },
     "lods": [
       {
         "level": 0,
-        "resolution": 78271.516964,
-        "scale": 295828763.7957775
+        "resolution": 0.703125,
+        "scale": 295828763.7958547
       },
       {
         "level": 1,
-        "resolution": 39135.75848199995,
-        "scale": 147914381.8978885
+        "resolution": 0.3515625,
+        "scale": 147914381.89792734
       },
       {
         "level": 2,
-        "resolution": 19567.87924100005,
-        "scale": 73957190.9489445
+        "resolution": 0.17578125,
+        "scale": 73957190.94896367
       },
       {
         "level": 3,
-        "resolution": 9783.93962049995,
-        "scale": 36978595.474472
+        "resolution": 0.087890625,
+        "scale": 36978595.474481836
       },
       {
         "level": 4,
-        "resolution": 4891.96981024998,
-        "scale": 18489297.737236
+        "resolution": 0.0439453125,
+        "scale": 18489297.737240918
       },
       {
         "level": 5,
-        "resolution": 2445.98490512499,
-        "scale": 9244648.868618
+        "resolution": 0.02197265625,
+        "scale": 9244648.868620459
       },
       {
         "level": 6,
-        "resolution": 1222.992452562495,
-        "scale": 4622324.434309
+        "resolution": 0.010986328125,
+        "scale": 4622324.4343102295
       },
       {
         "level": 7,
-        "resolution": 611.496226281245,
-        "scale": 2311162.2171545
+        "resolution": 0.0054931640625,
+        "scale": 2311162.2171551147
       },
       {
         "level": 8,
-        "resolution": 305.74811314069,
-        "scale": 1155581.1085775
+        "resolution": 0.00274658203125,
+        "scale": 1155581.1085775574
       },
       {
         "level": 9,
-        "resolution": 152.874056570279,
-        "scale": 577790.5542885
+        "resolution": 0.001373291015625,
+        "scale": 577790.5542887787
       },
       {
         "level": 10,
-        "resolution": 76.4370282852055,
-        "scale": 288895.2771445
+        "resolution": 0.0006866455078125,
+        "scale": 288895.27714438934
       },
       {
         "level": 11,
-        "resolution": 38.2185141425366,
-        "scale": 144447.638572
+        "resolution": 0.00034332275390625,
+        "scale": 144447.63857219467
       },
       {
         "level": 12,
-        "resolution": 19.1092570712683,
-        "scale": 72223.819286
+        "resolution": 0.000171661376953125,
+        "scale": 72223.81928609734
       },
       {
         "level": 13,
-        "resolution": 9.55462853563415,
-        "scale": 36111.909643
+        "resolution": 0.0000858306884765625,
+        "scale": 36111.90964304867
       },
       {
         "level": 14,
-        "resolution": 4.777314267817075,
-        "scale": 18055.9548215
+        "resolution": 0.00004291534423828125,
+        "scale": 18055.954821524334
       },
       {
         "level": 15,
-        "resolution": 2.388657133974685,
-        "scale": 9027.977411
+        "resolution": 0.000021457672119140625,
+        "scale": 9027.977410762167
       },
       {
         "level": 16,
-        "resolution": 1.19432856698734,
-        "scale": 4513.9887055
+        "resolution": 0.000010728836059570312,
+        "scale": 4513.9887053810835
       },
       {
         "level": 17,
-        "resolution": 0.597164283427525,
-        "scale": 2256.9943525
+        "resolution": 0.000005364418029785156,
+        "scale": 2256.9943526905417
       },
       {
         "level": 18,
-        "resolution": 0.2985821417799085,
-        "scale": 1128.4971765
+        "resolution": 0.000002682209014892578,
+        "scale": 1128.4971763452709
       },
       {
         "level": 19,
-        "resolution": 0.1492910708238085,
-        "scale": 564.248588
+        "resolution": 0.000001341104507446289,
+        "scale": 564.2485881726354
       },
       {
         "level": 20,
-        "resolution": 0.07464553541190416,
-        "scale": 282.124294
+        "resolution": 6.705522537231445e-7,
+        "scale": 282.1242940863177
       },
       {
         "level": 21,
-        "resolution": 0.03732276770595208,
-        "scale": 141.062147
+        "resolution": 3.3527612686157227e-7,
+        "scale": 141.06214704315886
+      },
+      {
+        "level": 22,
+        "resolution": 1.6763806343078613e-7,
+        "scale": 70.53107352157943
       }
     ]
   },
-  "maxzoom": 21,
-  "currentVersion": 10.9,
-  "capabilities": "TilesOnly",
+  "maxzoom": 16,
   "minLOD": 0,
-  "maxLOD": 15,
-  "exportTilesAllowed": false,
-  "supportedExtensions": ""
+  "maxLOD": 16
 }
