@@ -5,7 +5,7 @@
   "capabilities":"TilesOnly,Tilemap",
   "type":"indexedFlat",
   "defaultStyles":"./resources/styles",
-  "tileMap": "./tilemap",
+  "tileMap": "./tilemap/index.json",
   "tiles":["https://dev-unvt.dfs.un.org/vtile-open/zxy/unosm-prod/{z}/{x}/{y}.pbf"],
   "exportTilesAllowed":false,
   "initialExtent": {
