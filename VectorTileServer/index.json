@@ -2,7 +2,6 @@
  "name": "VT Test",
  "copyrightText": "OpenStreetMap contributors, UN Geosptial",
  "type": "indexedFlat",
- "tileMap": "tilemap",
  "defaultStyles": "resources/styles",
  "tiles": [
   "https://dev-unvt.dfs.un.org/vtile-open/zxy/unosm-prod/{z}/{x}/{y}.pbf"
@@ -28,7 +27,7 @@
   }
  },
  "minScale": 2.958287637957775E8,
- "maxScale": 564.248588,
+ "maxScale": 4513.9887055,
  "tileInfo": {
   "rows": 512,
   "cols": 512,
@@ -127,25 +126,10 @@
     "level": 16,
     "resolution": 1.19432856698734,
     "scale": 4513.9887055
-   },
-   {
-    "level": 17,
-    "resolution": 0.597164283427525,
-    "scale": 2256.9943525
-   },
-   {
-    "level": 18,
-    "resolution": 0.2985821417799085,
-    "scale": 1128.4971765
-   },
-   {
-    "level": 19,
-    "resolution": 0.1492910708238085,
-    "scale": 564.248588
    }
   ]
  },
- "maxzoom": 19,
+ "maxzoom": 16,
  "resourceInfo": {
   "styleVersion": 8,
   "tileCompression": "gzip",
@@ -157,9 +141,9 @@
   }
  },
  "currentVersion": 10.9,
- "capabilities": "TilesOnly,Tilemap",
+ "capabilities": "TilesOnly",
  "minLOD": 0,
- "maxLOD": 0,
+ "maxLOD": 16,
  "exportTilesAllowed": false,
  "maxExportTilesCount": 100000,
  "supportedExtensions": ""
