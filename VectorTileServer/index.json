@@ -28,7 +28,7 @@
   }
  },
  "minScale": 2.958287637957775E8,
- "maxScale": 35.26553675,
+ "maxScale": 564.248588,
  "tileInfo": {
   "rows": 512,
   "cols": 512,
@@ -142,30 +142,10 @@
     "level": 19,
     "resolution": 0.1492910708238085,
     "scale": 564.248588
-   },
-   {
-    "level": 20,
-    "resolution": 0.07464553541190416,
-    "scale": 282.124294
-   },
-   {
-    "level": 21,
-    "resolution": 0.03732276770595208,
-    "scale": 141.062147
-   },
-   {
-    "level": 22,
-    "resolution": 0.01866138385297604,
-    "scale": 70.5310735
-   },
-   {
-    "level": 23,
-    "resolution": 0.00933069192648802,
-    "scale": 35.26553675
    }
   ]
  },
- "maxzoom": 23,
+ "maxzoom": 19,
  "resourceInfo": {
   "styleVersion": 8,
   "tileCompression": "gzip",
@@ -179,7 +159,7 @@
  "currentVersion": 10.9,
  "capabilities": "TilesOnly,Tilemap",
  "minLOD": 0,
- "maxLOD": 16,
+ "maxLOD": 0,
  "exportTilesAllowed": false,
  "maxExportTilesCount": 100000,
  "supportedExtensions": ""
